@@ -549,13 +549,13 @@ section {
 
 .contact-info-content h4 {
   color: #1da9c0;
-  font-size: 1.4em;
+  font-size: 3em;
   margin-bottom: 5px;
 }
 
 .contact-info-content p {
-  color: #FFF;
-  font-size: 1em;
+  color: black;
+  font-size: 2em;
 }
 
 .contact-form {
