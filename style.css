@@ -346,7 +346,7 @@ header .follow a:hover{
     height: 0;
     width: 0;
     border: 7px solid transparent;
-    border-top-color: skyblue;
+    border-top-color: blue;
     opacity: 0;
     animation: showText2 0.5s 1.5s linear forwards;
   }
@@ -355,7 +355,7 @@ header .follow a:hover{
     position: absolute;
     right: -12px;
     top: -28px;
-    background:skyblue;
+    background:blue;
     color: #fff;
     font-size: 12px;
     padding: 1px 8px;
