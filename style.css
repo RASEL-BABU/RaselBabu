@@ -6,7 +6,7 @@
 }
 
 :root{
-    --main-color:Fuchsia;
+    --main-color:slateblue;
 }
 
 *{
@@ -41,7 +41,7 @@ section{
 .heading{
     font-size: 4rem;
     padding-bottom: 1rem;
-    color:#111;
+    color:var(--main-color);
     text-transform: uppercase;
 }
 
@@ -93,15 +93,17 @@ header .logo span{
 
 header .navbar a{
     display: block;
-    font-size: 2rem;
-    color:#fff;
+    font-size: 2.2rem;
+    color:#6495ED;
     margin:2rem 0;
+    font-weight: bold;
 }
 
 
 header .navbar a:hover{
-    letter-spacing: .2rem;
-    color:var(--main-color);
+    letter-spacing: .5rem;
+    font-size: 3rem;
+    color:#1E8449 ;
 }
 
 header .follow a{
@@ -221,9 +223,9 @@ header .follow a:hover{
 }
 /* skills section */
 .sub-title{
-    color:aquamarine;
+    color:purple;
 
-    font-size: 25px;
+    font-size: 20px;
 
 }
 .skill-bx{
@@ -504,11 +506,14 @@ section {
 
 .section-header {
   margin-bottom: 50px;
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
+ 
+  color: var(--main-color);
 }
 
 .section-header h2 {
-  color:black;
+  
   font-weight: bold;
   font-size: 3em;
   margin-bottom: 20px;
