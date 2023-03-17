@@ -176,7 +176,7 @@ header .follow a:hover{
 
 .home .content .text{
     font-size: 1.7rem;
-    color:#666;
+    
     padding:.5rem 0;
 }
 
@@ -210,7 +210,7 @@ header .follow a:hover{
 }
 
 .about .row-1 .content p{
-    color:#666;
+    
     font-size: 1.7rem;
     padding:.5rem 0;
 }
@@ -291,7 +291,7 @@ header .follow a:hover{
   
   .skill-bx .progress-line span{
     height: 100%;
-    background:#47a0ff78;
+    background:#154360;
     position: absolute;
     border-radius: 10px;
     transform: scaleX(0);
